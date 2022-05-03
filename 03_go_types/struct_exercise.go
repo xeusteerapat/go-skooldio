@@ -11,6 +11,7 @@ func String(book Book) string {
 	return book.Name + " by " + book.Author
 }
 
+// you need a pointer receiver
 func (book *Book) SetName(name string) {
 	book.Name = name
 }
