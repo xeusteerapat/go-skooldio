@@ -1,0 +1,19 @@
+GET http://localhost:8080/ping
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name": "Design Patterns",
+  "author": "Gang of Four"
+}
+###
+
+GET http://localhost:8080/books
+Content-Type: application/json
+###
+
+GET http://localhost:8080/books/1
+Content-Type: application/json
+###
